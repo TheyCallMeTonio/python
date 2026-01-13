@@ -1,25 +1,15 @@
+a = 100
+b = 200
+c = 300
 
-igual_que = 5 == 6
+suma = a + b + c
+resta = a - b - c
+multiplicacion = a * b * c
+division = c / b / a
+modulo = a % b % c
 
-distinto_de = 5 != 6
-
-mayor_que = 5 > 6
-
-menor_que = 5 < 6
-
-mayor_o_igual = 5 >= 6
-
-menor_o_igual = 5 <= 6
-
-#calculos combinados
-
-a = 5
-b = 10
-c = 20
-comparacion = a + b < c
-
-#comparar usuarios
-contraseña_almacenada = "DaltoMaestro"
-contraseña_escrita = '''DaltoMaestro'''
-
-print(contraseña_almacenada == contraseña_escrita)
+print("Suma:", suma)
+print("Resta:", resta)
+print("Multiplicación:", multiplicacion)
+print("División:", division)
+print("Módulo:", modulo)
